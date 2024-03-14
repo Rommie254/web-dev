@@ -1,0 +1,71 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#introduction{
+    background-color: lightcyan;
+    margin: 20px 15% 20px 15%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills{
+    background-color: lightcyan;
+    margin: 20px 15% 20px 15%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+#skills ul{
+    list-style-type: none;
+}
+
+#skills li{
+    border: 1px solid darkcyan;
+    border-right-width: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact{
+    background-color: darkcyan;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#contact p{
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1024px) {
+  .section {
+    margin: 10px; 
+    padding: 10px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 10px; 
+  }
+
+  footer {
+    padding: 10px; 
+  }
+}
